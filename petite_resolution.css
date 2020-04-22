@@ -1,0 +1,78 @@
+/*si l'écran est plus petit que 768px
+alors <aside> passe au-dessus de <section> */  
+	
+	main
+	{
+		flex-direction: column-reverse;
+	}
+	section
+	{
+		width: 100%;	
+	}
+	aside
+	{
+		width: 100%;
+	}
+	aside img
+	{
+		width: 20%;
+		margin-left: 40%;
+	}
+	.infosContact
+	{
+		margin-left: 0;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	h4
+	{
+		font-size: 15px;
+	}
+	#blabla
+	{
+		
+		text-align: center;
+		word-wrap: break-word;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 5em;
+	}
+	#iconesLoisirs
+	{
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+/* partie inférieure du CV*/
+	#formation
+	{
+		margin-left: 10px;
+	}
+	#contenuFormation1
+	{
+		width: 50%;	
+	}
+	#contenuFormation2
+	{
+		width: 50%;	
+	}
+	#experienceProfessionnelle
+	{
+		margin-left: 10px;
+	}
+	#contenuExperience1
+	{
+		width: 50%;
+	}
+	#contenuExperience2
+	{
+		width: 50%;
+	}
+	#contenuExperience3
+	{
+		width: 50%;
+	}
+	#recommandation
+	{
+		margin-left: 10px;
+	}

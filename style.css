@@ -1,0 +1,266 @@
+/* commentaires */
+body
+{
+	margin: 0;
+	font-family: 'Trebuchet MS'
+}
+main
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+}
+section /*partie de droite du CV*/
+{
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+}
+#blocPage
+{ 
+	margin-left: auto;
+	margin-right: auto;
+}
+header
+{
+	display: flex;
+	justify-content: flex-start;
+	height: 200px;
+}	
+figure
+{
+	text-align: center;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	width: 25%;
+	background-color: orange;
+}
+img
+{	
+	max-height: 80%;
+	max-width: 80%;
+	margin-top: 2em;
+	border-radius: 150px;
+	box-shadow: 0px 0px 10px black;
+}
+#nom
+{
+	margin-left: 3em;
+}
+h1
+{
+	color: orange;
+	font-size: 2em;
+	margin-top: 2em;
+}
+span
+{
+	color: black;
+	margin-left: 0.5em;
+}
+h2
+{
+	text-decoration: underline;
+	text-decoration-color: orange;
+	
+	margin-bottom: 3em;
+}
+h3::after
+{
+	content:"";
+	display: block;
+	margin-top: 11px;
+	border-bottom: solid orange;
+}
+h4
+{
+	font-size: 10px;
+}
+h5
+{
+	font-size: 14px;
+	margin-top: 1em;
+}
+.fa-dot-circle
+{
+	color: orange;
+	margin-top: 1em;
+	margin-right: 1em
+}
+.fa-circle
+{
+	font-size: 10px;
+	color:orange;
+	margin-top: 2em;
+	margin-right: 2em;
+}
+.fa-graduation-cap
+{
+	color: orange;
+	margin-right: 1em;
+}
+#blocFormation1
+{
+	display: flex;
+}
+#dateFormation1
+{
+	display: flex;
+	width: 40%;
+}
+#contenuFormation1
+{
+	width: 60%;
+
+}
+#blocFormation2
+{
+	display: flex;
+	
+}
+#dateFormation2
+{
+	display: flex;
+	width: 40%;
+}
+#contenuFormation2
+{
+	
+	width: 60%;
+}
+
+#formation
+{
+	margin-left: 3em;
+	display: flex;
+	flex-direction: column;
+}
+.fa-suitcase
+{
+	color: orange;
+	margin-right: 1em;
+}
+#experienceProfessionnelle
+{
+	margin-left: 3em;
+	display: flex;
+	flex-direction: column;
+}
+#blocExperience1
+{
+	display: flex;
+}
+#dateExperience1
+{
+	display: flex;
+	width: 40%;
+}
+#contenuExperience1
+{
+	width: 60%;
+
+}
+#blocExperience2
+{
+	display: flex;
+	
+}
+#dateExperience2
+{
+	display: flex;
+	width: 40%;
+}
+#contenuExperience2
+{
+	
+	width: 60%;
+}
+.fa-pen-nib
+{
+	color: orange;
+	margin-right: 1em;
+}
+#recommandation
+{
+	margin-left: 3em;
+	display: flex;
+	flex-direction: column;
+}
+#recos
+{
+	display: flex;
+	margin-bottom: 3em;
+}
+.reco2
+{ 
+	margin-left: 20%;
+}
+/*partie de gauche du CV*/
+aside
+{
+	width: 25%;
+	background-color: orange;
+}
+#Contact
+{
+	background-color: grey;
+	text-align: center;
+	color: yellow;
+}
+.infosContact
+{
+	margin-left: 10%;
+	margin-top: 2em;
+	margin-bottom: 3em;
+	word-wrap: break-word;
+}
+#moi
+{
+	background-color: grey;
+	text-align: center;
+	color: yellow;
+}
+
+#blabla
+{
+	word-wrap: break-word;
+	margin-left: 10%;
+	margin-top: 2em;
+	margin-right: 10%;
+	margin-bottom: 250px;
+}
+#Loisirs
+{
+	background-color: grey;
+	text-align: center;
+	color: yellow;
+}
+#iconesLoisirs
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2em;
+}	
+.fa-golf-ball
+{
+	font-size: 40px;
+	border-radius: 100px;
+	border: 1px solid;
+	color: white;
+}
+.fa-gamepad
+{
+	font-size: 40px;
+	border-radius: 100px;
+	border: 1px solid;
+	color: red;
+}
+.fa-seedling
+{
+	font-size: 40px;
+	border-radius: 100px;
+	border: 1px solid;
+	color: green;
+}

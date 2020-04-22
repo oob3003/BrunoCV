@@ -1,0 +1,65 @@
+/* Sur tous types d'écran, quand la résolution 
+est inférieure à 480px */
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		height: 290px;
+	}
+	figure
+	{
+		margin-left: 35%;
+	}
+	#nom
+	{
+		margin-left: 0;
+		text-align: center;
+	}
+	section
+	{
+		background-color: lightblue;
+	}
+	.fa-dot-circle
+	{
+		display: none;
+	}
+	.fa-circle
+	{
+		display: none;
+	}
+	li
+	{
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	#dateFormation1
+	{
+		margin-left: 1em;
+		width: 30%;
+	}
+	#dateFormation2
+	{
+		margin-left: 1em;
+		width: 30%;
+	}
+	#dateExperience1
+	{
+		margin-left: 1em;
+		width: 30%;
+	}
+	#dateExperience2
+	{
+		margin-left: 1em;
+		width: 30%;
+	}
+	#recos
+	{
+		display: flex;
+		flex-direction: column;
+		margin-left: 1em;
+	}
+	.reco2
+	{
+		margin-left: 0;
+	}

@@ -1,0 +1,6 @@
+/* Sur les téléviseurs: résolution supérieure à 1280px.
+@media tv*/
+#blocPage
+{
+	max-width: 1280px;
+}

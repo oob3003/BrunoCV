@@ -7,7 +7,8 @@ alors <aside> passe au-dessus de <section> */
 	}
 	section
 	{
-		width: 100%;	
+		width: 100%;
+		background-color: #C8E6C9;	
 	}
 	aside
 	{

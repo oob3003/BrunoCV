@@ -5,6 +5,14 @@ alors <aside> passe au-dessus de <section> */
 	{
 		flex-direction: column-reverse;
 	}
+	h6
+	{
+		font-size: 12px;
+	}
+	.texte
+	{
+		font-size: 12px;
+	}
 	section
 	{
 		width: 100%;

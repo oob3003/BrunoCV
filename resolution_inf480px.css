@@ -15,6 +15,14 @@ est inférieure à 480px */
 		margin-left: 0;
 		text-align: center;
 	}
+	h6
+	{
+		font-size: 13px;
+	}
+	.texte
+	{
+		font-size: 13px;
+	}
 	section
 	{
 		background-color: #B3E5FC;
@@ -49,6 +57,11 @@ est inférieure à 480px */
 		width: 30%;
 	}
 	#dateExperience2
+	{
+		margin-left: 1em;
+		width: 30%;
+	}
+	#dateExperience3
 	{
 		margin-left: 1em;
 		width: 30%;

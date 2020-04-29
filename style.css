@@ -21,6 +21,10 @@ section /*partie de droite du CV*/
 	margin-left: auto;
 	margin-right: auto;
 }
+.texte
+{
+	font-size: 11px;
+}
 header
 {
 	display: flex;
